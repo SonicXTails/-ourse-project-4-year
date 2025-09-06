@@ -12,4 +12,4 @@ class CardForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields['image'].required = False  # <- вот эта строчка делает поле необязательным
+        self.fields['image'].required = False

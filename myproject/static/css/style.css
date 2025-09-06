@@ -16,7 +16,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     transition: transform 0.2s, box-shadow 0.2s;
     margin: 0 auto;
-    max-width: 500px; /* 🔥 пошире карточки */
+    max-width: 500px;
 }
 
 .card:hover {
@@ -32,14 +32,14 @@ body {
     border-bottom: 1px solid #555;
 }
 
-/* 🔥 Адаптивная высота фото */
-@media (max-width: 576px) {   /* телефоны */
+/* Адаптивная высота фото */
+@media (max-width: 576px) {
     .card-img-top {
         height: 200px;
     }
 }
 
-@media (min-width: 577px) and (max-width: 992px) { /* планшеты */
+@media (min-width: 577px) and (max-width: 992px) {
     .card-img-top {
         height: 300px;
     }

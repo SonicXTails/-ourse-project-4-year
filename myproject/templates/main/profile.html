@@ -26,7 +26,7 @@
             <div class="card-footer d-flex justify-content-between">
                 {% if request.user.id == profile_user.id %}
                     <a href="{% url 'edit_card' card.id %}" class="btn btn-sm btn-outline-primary">✏️ Редактировать</a>
-                    <a href="{% url 'delete_card' card.id %}" class="btn btn-sm btn-outline-danger">❌ Удалить</a>
+                    <a href="{% url 'delete_card' card.id %}" class="btn btn-sm btn-outline-danger">❌ Завершить</a>
                 {% endif %}
             </div>
         </div>

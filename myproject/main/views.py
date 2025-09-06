@@ -68,4 +68,5 @@ def admin_panel_view(request):
 
 @login_required
 def manager_panel_view(request):
+    # Можно потом наполнить контентом
     return render(request, 'main/manager_panel.html')
